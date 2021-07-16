@@ -1,0 +1,27 @@
+{
+  "name": "rfa",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "Discord bot for the Rebel Grenades discord server",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Discord",
+    "Discord Bot",
+    "Bot",
+    "Discordjs",
+    "DiscordJS",
+    "Discord.js"
+  ],
+  "author": "Chr1sDev",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord.js": "github:discordjs/discord.js#ae78a336e1d0d190ec9f525449332dc781e0b3bf",
+    "distube": "^2.8.15",
+    "ffmpeg-static": "^4.4.0",
+    "node-fetch": "^2.6.1"
+  }
+}
