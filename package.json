@@ -19,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "@discordjs/opus": "^0.5.3",
+    "better-sqlite3": "^7.4.1",
     "discord.js": "github:discordjs/discord.js#ae78a336e1d0d190ec9f525449332dc781e0b3bf",
     "distube": "^2.8.15",
     "ffmpeg-static": "^4.4.0",
