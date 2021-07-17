@@ -27,12 +27,6 @@ client.on("ready", () => {
   }
 });
 
-client.on("guildMemberAdd", (join) => {
-  if (join.guild.id !== `586736904771469313`) return;
-  const channel = join.guild.channels.cache.get(`798393104901472257`);
-  channel.send(`Welcome <@${join.id}> to **Rebel Grenades**`);
-});
-
 client.on(`message`, async (msg) => {
   if (msg.author.bot) return;
   if (msg.channel.type === "dm") return;
