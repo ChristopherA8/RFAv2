@@ -16,6 +16,15 @@ client.on("ready", () => {
     const { setup } = require(`../src/setup/${file}`);
     setup(client);
   }
+
+  // Run events
+  const eventfiles = fs
+    .readdirSync(`./src/events`)
+    .filter((file) => file.endsWith(".js"));
+  for (const file of eventfiles) {
+    const { event } = require(`../src/events/${file}`);
+    event(client);
+  }
 });
 
 client.on("guildMemberAdd", (join) => {
